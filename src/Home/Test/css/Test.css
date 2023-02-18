@@ -1,0 +1,80 @@
+.test_container{
+    padding: 10px;
+}
+.typing_test_box{
+    padding: 19px;
+    height: 432px;
+    /* position: relative; */
+    background-color: #7A8183;
+    width: 71vw;
+    max-width: 500px;
+    margin: 34px auto;
+}
+.typing_box{
+    display: flex;
+}
+.typing_content{
+    background-color: #1f1d29;
+    margin: 10px auto;
+    height: 67px;
+    padding: 9px;
+    color: white;
+    overflow: hidden;
+    font-family: system-ui;
+    font-weight: 600;
+}
+.typing_input{
+    width: 98%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.active{
+    font-weight: bold;
+    color: black;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: #DDDDDD;
+}
+.correct{
+    /* font-weight: bold; */
+    /* color:green; */
+    color: green;
+}
+.incorrect{
+    /* font-weight: bold; */
+    /* color:red; */
+   color: red;
+}
+.timeCount{
+    color: white;
+    font-size: 24px;
+    border-radius: 2px;
+    margin-left: 5px;
+    background-color: #413a61;
+    width: 73px;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+}
+.timeRestart{
+    background-color :#3276B1 ;
+}
+/* .Restart{
+    color: white;
+    font-size: 24px;
+    border-radius: 2px;
+    margin-left: 5px;
+    background-color: #413a61;
+    width: 73px;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+} */
+
+.restartPng{
+    height: 31px;
+    margin-top: 12px;
+}
